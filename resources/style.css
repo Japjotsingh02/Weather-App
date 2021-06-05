@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    overflow-y: hidden;
+    min-height: 100vh;
+    font-family: "Roboto Slab" !important;
+}
+
+.wrapper{
+    background: rgba(0, 0, 0, 0.82) ;
+    margin: 15rem auto;
+    padding: 2em;
+    width: 100%;
+    max-width: 50rem;
+    border-radius: 15px;
+    
+}
+
+.wrap-child{
+    color:#ffffff;    
+}
+
+
+#header{
+    text-align: center;
+    margin: 1rem;
+}
+
+#header input{
+    border-radius: 1.8rem;
+    min-height: 3.3em;
+    outline: none;
+    min-width: 60%; 
+    padding: 0 1rem;
+    font-size: 120%;
+    color: #ffffff;
+    border: none;
+    background: rgba(124, 124, 114, 0.2);
+}
+
+#header .button{
+    min-width: 4rem;
+    min-height: 4em;
+    background: #ffffff;
+    border-radius: 5rem;
+    background: rgba(124, 124, 114, 0.2);
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.weather-desc{
+    display: none;
+}
+
+.place{
+    font-size: 2rem;
+    margin:2rem;
+}
+
+.weather-content .weather-desc-1{
+    text-align: center;
+} 
+
+.weather-content .weather-desc-1 .temp-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.weather-content .weather-desc-1 .temp-details .temp{
+    font-size: 6rem;
+}
+
+.weather-content .weather-desc-1 .temp-details .temp-scales{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff60;
+}
+
+.weather-content .weather-desc-1 .temp-details .celsius{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.weather-content .weather-desc-1 .temp-details .fahrenheit{
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+.temp-details .temp-scales .border{
+    width:4ch;
+    border: 1px solid #ffffff60 !important;
+}
+
+.weather-content .weather-desc-1 .weather {
+    font-size:2rem;
+}
+
+.weather-content .weather-desc-1 svg{
+    width:20rem;
+    margin:3rem;
+    padding: 0;
+}
+
+.weather-content .weather-desc-2 {
+    font-size: 1.8rem;
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-content .weather-desc-2 .value{
+    margin: 0 .7rem;
+}
+
+.weather-content .weather-desc-2  .unit{
+    margin:0 .3rem;
+}
+
+.footer{
+    width: 100%;
+    height:3em;
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.82) ;
+}
+
+
+@media screen and (max-width:580px){
+    .wrapper{
+        width: 100%;
+        max-width: 28rem;
+    }
+
+    #header input{
+        min-width: 40%; 
+    }
+
+    .weather-desc-1{
+        margin: 0 3rem;
+    }
+
+    .weather-content .weather-desc-1 .temp-details{
+        display: flex;
+        align-items: center;
+    }
+
+    .weather-content .weather-desc-1 svg{
+        width:10rem;
+        margin:3rem;
+    }
+
+}
+
+
+
+

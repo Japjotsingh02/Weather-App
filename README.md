@@ -2,12 +2,12 @@
 This app can give weather reports of any city.
 
 ## Table of contents
-* [Overview]{https://github.com/Japjotsingh02/Weather-App#overview}
-  * [What this app can do ]{https://github.com/Japjotsingh02/Weather-App#what-it-can-do-}
-  * [Links]{https://github.com/Japjotsingh02/Weather-App#links-}
-* [Making Process]{https://github.com/Japjotsingh02/Weather-App#making-process}
-  * [Bulit with]{https://github.com/Japjotsingh02/Weather-App#built-with-}
-  * [Author]{https://github.com/Japjotsingh02/Weather-App#author-}
+* [Overview](https://github.com/Japjotsingh02/Weather-App#overview)
+  * [What this app can do ](https://github.com/Japjotsingh02/Weather-App#what-it-can-do-)
+  * [Links](https://github.com/Japjotsingh02/Weather-App#links-)
+* [Making Process](https://github.com/Japjotsingh02/Weather-App#making-process)
+  * [Bulit with](https://github.com/Japjotsingh02/Weather-App#built-with-)
+  * [Author](https://github.com/Japjotsingh02/Weather-App#author-)
 
 ## Overview
 

@@ -29,6 +29,7 @@ This app can give weather reports of any city.
 * Semantic HTML5 markup
 * Css Custom Properties
 * Js functions, object and Dom Event Listeners
+* OpenWeatherMap Api
 
 ### Author-
 

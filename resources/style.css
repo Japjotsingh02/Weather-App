@@ -108,6 +108,12 @@ body{
     font-size:2rem;
 }
 
+.image{
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+}
+
 .weather-desc-1 svg{
     width:20rem;
     margin:3rem;
@@ -161,7 +167,7 @@ body{
         align-items: center;
     }
 
-    .weather-content .weather-desc-1 svg{
+    .weather-content .weather-desc-1 .image{
         width:10rem;
         margin:3rem;
     }
